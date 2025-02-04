@@ -19,13 +19,13 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     noBtn.addEventListener("click", function () {
-        let confirmNo = confirm("Are you sure?");
+        let confirmNo = confirm("Labbakata da No ebuwe?");
         if (confirmNo) {
-            confirmNo = confirm("Really sure?");
+            confirmNo = confirm("Poddk hithanna molayak nadda ganiye?");
             if (confirmNo) {
-                confirmNo = confirm("Final answer?");
+                confirmNo = confirm("Dn thamun ehemai ne?");
                 if (confirmNo) {
-                    const popup = confirm("No? That's heartbreaking! 💔\nClick OK to accept your decision.");
+                    const popup = confirm("Hri Hri ehemai ne oya? That's heartbreaking! 💔\nClick OK to accept your decision.");
                     if (popup) {
                         question.textContent = "I accept your decision. 💔";
                     }
