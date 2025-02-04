@@ -25,9 +25,9 @@ document.addEventListener("DOMContentLoaded", function () {
             if (confirmNo) {
                 confirmNo = confirm("Dn thamun ehemai ne?");
                 if (confirmNo) {
-                    const popup = confirm("Hri Hri ehemai ne oya? That's heartbreaking! 💔\nClick OK to accept your decision.");
+                    const popup = confirm("Hri Hri ehemai ne oya? Hadawatha ridunaaa! 💔\nClick OK to accept your decision.");
                     if (popup) {
-                        question.textContent = "I accept your decision. 💔";
+                        question.textContent = "Obe sapa mage sathutai. Adrei theruwan saranai 💔";
                     }
                 }
             }
